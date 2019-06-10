@@ -1,0 +1,52 @@
+.logintitle {
+    font-size: 40px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0,0,20,0.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transform: translate(0%, 30%);
+}
+
+h1 {
+    transform: translateY(20px);
+}
+
+form {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    background-color: rgba(0,0,50,0.2);
+    border-radius: 100px;
+}
+
+.usernamelabel {
+    display: inline-block;
+    font-size: 20px;
+    transform: translate(0px, 30px);
+}
+
+.passwordlabel {
+    display: inline-block;
+    font-size: 20px;
+    transform: translate(-2px, 33px);
+}
+
+.username {
+    font-size: 20px;
+    transform: translate(0px,30px);
+}
+
+.password {
+    font-size: 20px;
+    transform: translate(2px, 33px);
+}
+
+#button {
+    font-size: 25px;
+    transform: translateY(70px);
+}

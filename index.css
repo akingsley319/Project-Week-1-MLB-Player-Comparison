@@ -1,0 +1,38 @@
+table {
+    border: 1px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgba(250,0,0,0.15);
+}
+
+th, td {
+    width: 50px;
+    height: 5px;
+
+}
+table,thead, tbody, th, td{
+    border: 1px solid black;
+}
+
+.playername, .gametype {
+    width: 200px;
+}
+
+.season { 
+    width: 100px;
+}
+
+.playername, .gametype, .season {
+    background-color: rgba(0,0,250,0.15);
+}
+
+#deletebutton{
+    border: none;
+    translate: transform(-2px, 5px);
+}
+
+#identification{
+    background-color: rgba(200,200,200,0.4);
+}

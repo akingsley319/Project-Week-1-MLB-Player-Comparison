@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Player Data</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <button onclick="logOut()">Log Out</button>
+    <h3>Search Player Stats:</h3><label id = "feedback"></label>
+    <br/><br/>
+    <label>Player:</label>
+    <input type="text" name="player" id="player" required autofocus>
+    <label>Year:</label>
+    <input type="text" name="season" id="season" required>
+    <label>Stat Selection:</label>
+    <select id="gametype">
+        <option value='R'>Regular Season</option>
+        <option value='S'>Spring Training</option>
+        <option value='W'>World Series</option>
+    </select>
+    <button onclick="findPlayer()">Submit</button>
+    <br/> <br/>
+    <h3>Hitter Information</h3>
+    <table id="playertable">
+        <thead>
+            <th center class="playername">Player Name</th>
+            <th center class="gametype">Game Type</th>
+            <th center class="season">Season</th>
+            <th center>Games Played</th>
+            <th center>ab</th>
+            <th center>avg</th>
+            <th center>obp</th>
+            <th center>slg</th>
+            <th center>ops</th>
+            <th center>k</th>
+            <th center>bb</th>
+        </thead>
+        <tbody id="playerstats"></tbody>
+    </table>
+</body>
+<script src="loadData.js"></script>
+<script src="apps.js" onload="checkLogIn()"></script>
+</html>
